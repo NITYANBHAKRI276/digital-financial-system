@@ -1,0 +1,32 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Java and Maven
+**/target/
+*.class
+
+# Node.js
+**/node_modules/
+**/.next/
+**/out/
+
+# Python
+**/.venv/
+**/venv/
+**/__pycache__/
+*.py[cod]
+
+# ML datasets and model files
+backend/data/
+ml-service/data/
+ml-service/models/
+*.joblib
+*.pkl
+
+# Mac
+.DS_Store
+
+# Logs
+*.log
